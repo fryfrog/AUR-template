@@ -10,15 +10,6 @@ url="https://github.com/Prowlarr/Prowlarr"
 license=('GPL3')
 options=('!strip' 'staticlibs')
 depends=('sqlite')
-#optdepends=('sabnzbd: usenet downloader'
-#            'nzbget: usenet downloader'
-#            'transmission-cli: torrent downloader (CLI and daemon)'
-#            'transmission-gtk: torrent downloader (GTK+)'
-#            'transmission-qt: torrent downloader (Qt)'
-#            'deluge: torrent downloader'
-#            'rtorrent: torrent downloader'
-#            'jackett: torrent indexer proxy'
-#            'libgdiplus: provides a gdi+ compatible api')
 
 source_x86_64=("prowlarr.develop.${pkgver}.linux-core-x64.tar.gz::https://prowlarr.servarr.com/v1/update/nightly/updatefile?version=${pkgver}&os=linux&runtime=netcore&arch=x64") 
 source_aarch64=("prowlarr.develop.${pkgver}.linux-core-arm64.tar.gz::https://prowlarr.servarr.com/v1/update/nightly/updatefile?version=${pkgver}&os=linux&runtime=netcore&arch=arm64") 
